@@ -27,14 +27,7 @@ public class SimpleListTest {
 		testList.add(5);
 	}
 
-	@Test
-	void testAddElements(){
-		int counter = 0;
-		for(Object o : testList){
-			counter++;
-		}
-		assertEquals(5, counter);
-	}
+
 
 	@Test
 	void testSize(){

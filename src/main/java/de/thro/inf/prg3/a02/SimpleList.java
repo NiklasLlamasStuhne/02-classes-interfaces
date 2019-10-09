@@ -5,7 +5,6 @@ public interface SimpleList {
 	 * Add a given object to the back of the list.
 	 */
 	void add(Object o);
-
 	/**
 	 * @return current size of the list
 	 */
